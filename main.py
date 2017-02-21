@@ -23,10 +23,10 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     autoescape=True)
 
 # Define your production Cloud SQL instance information.
-_INSTANCE_NAME = 'your-project-id:your-instance-name'
-_DB_NAME = 'your-db-name'
-_USER = 'root' # or whatever other user account you created
-_PSWD = 'your-password'
+_INSTANCE_NAME = harison-byte3:harison-sql-byte3
+_DB_NAME = Aware
+_USER = kleins11
+_PSWD = nikola
 
 # the table where activities are logged
 _ACTIVITY = 'plugin_google_activity_recognition'

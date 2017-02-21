@@ -23,7 +23,7 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     autoescape=True)
 
 # Define your production Cloud SQL instance information.
-_INSTANCE_NAME = harison-byte3:harison-sql-byte3
+_INSTANCE_NAME = harison-byte3: harison-sql-byte3
 _DB_NAME = Aware
 _USER = kleins11
 _PSWD = nikola
